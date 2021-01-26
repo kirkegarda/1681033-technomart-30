@@ -2,24 +2,24 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title>Каталог</title>
   </head>
 <body>
 <header>
 <section><h2>Шапка</h2>
-<a href="catalog.html"><button type="button">Техномарт </button></a>
+<a href="catalog.html"><img src="#" alt="логотип Техномарт"</a>
 <form action ="#" method="post"> <input type="search" placeholder="Поиск"></form> 
-<a href="#"><button type="button">Закладки </button></a>
-<a href="#"><button type="button">Корзина </button></a>
-<a href="#"><input type="submit">Оформить заказ </input></a>
+<a href="#">Закладки </a>
+<a href="#">Корзина </a>
+<a href="#">Оформить заказ</a>
 </section>
 
 <section> <h2>информация</h2>
 <i>Интернет магазин<br> строительных материалов<br> и инструментов для ремонта</i>
 <address tel="+78125550555">+7(812)555-05-55</address>
 <address>г. Санкт-Петербург ул.Б.Конюшенная д.19/8</address>
-<a href="#"><button type="button">Войти </button></a>
-<a href="#"><button type="button">Регистрация </button></a>
+<a href="#">Войти </a>
+<a href="#">Регистрация </a>
 </section>
 
 <nav>
@@ -34,3 +34,119 @@
     </ul>
   </nav> 
  </header>
+ <main>
+ <div class="breadcraps"> <a href=""><img src="https://via.placeholder.com/15x10" alt="вернуться"></a>
+ <a href="">Каталог</a>
+ <a href="">Инструмент</a>
+ <a href="">Перфораторы</a>
+ </div>
+ <div>
+ <div><h1>ПЕРФОРАТОРЫ</h1></div>
+ <div class="filtering"> <h2>сортировка:</h2> <a href="">по цене</a> <a href="">по типу</a> <a href="">по функционалу</a>
+ </div>
+ <div class="goods">
+ <ul>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
+          <a href="">Перфоратор BOSH BFG 6000</a>  <div class="old_price"><s>3050022500р</s></div> <div class="new_price">25500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 3000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>22500р</s></div> <div class="new_price">15500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 2000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="new_price">12500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 3000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>22500р</s></div> <div class="new_price">12500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
+      </div></li>
+ <li><div class=product>
+      <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 2000"></a>
+          <a href="">Перфоратор BOSH BFG 2000</a>  <div class="new price">12500</div>
+      </div></li>
+ </ul>
+ </div>
+ <div class="pagination> <a href="">1</a> <a href="">2</a><a href="">3</a><a href="">следующая</a></div>
+ </div>
+
+ <section>
+  <h2>фильтр:</h2>
+  <form url="#" method="get">
+  <fieldset>
+    <legend>цена</legend>
+
+  </fieldset>
+  <fieldset>
+    <legend>производители</legend>
+    <ul>   
+   <li><input type="checkbox" value BOSH checked> BOSH</input> </li>
+   <li><input type="checkbox" value ИНТЕРСКОЛ>ИНТЕРСКОЛ </input> </li>
+   <li><input type="checkbox" value MAKITA checked>MAKITA </input> </li>
+   <li><input type="checkbox" value DEWALT> DEWALT</input> </li>
+   <li><input type="checkbox" value HITACHI> HITACHI</input> </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>питание</legend>
+  <ul>
+  <li><input type="radio" name ="power" value="accum" checked>аккумуляторы</input>
+  <li><input type="radio" name ="power" value="el_wire">от сети</input>
+  </ul>
+  </fieldset>
+  <button type="submit">показать</button>
+  </form>
+ </section>
+<section> <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
+<p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функциии, шуруповерта и отбойного молотка.<br> 
+В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p> 
+</section>
+  </main>
+ <footer>
+<section><h2>ссылки</h2>
+  <a href="catalog.html"><img src="#" alt="логотип Техномарт"</a>
+   <address>г. Санкт-Петербург ул.Б.Конюшенная д.19/8</address>
+   <ul>
+     <li><a href="">Компания</a></li>
+     <li><a href="">Новости</a></li>
+     <li><a href="">Каталог</a></li>
+     <li><a href="">Доставка</a></li>
+     <li><a href="">Контакты</a></li>
+   </ul>
+   <ul>
+    <li><a href="">Материалы</a></li>
+    <li><a href="">Техника</a></li>
+    <li><a href="">Инструмент</a></li>
+    <li><a href="">Спецпредложения</a></li>
+  </ul>
+</section>
+<section><h2>подвал</h2>
+  <p> © 2010-2019 Компания "Техномарт"<br>
+   Все права защищены </p>
+   <a href=""> vk</a> <a href="">fb </a> <a href="">instagram</a> 
+   Обратная связь<br>
+  <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+   Разработано<br>
+   <a href="htmlacademy.ru">htmlacademy.ru</a>
+</section>
+</footer>
+</body>
+</html>

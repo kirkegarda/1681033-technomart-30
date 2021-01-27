@@ -6,21 +6,22 @@
   </head>
 <body>
 <header>
-<section><h2>Шапка</h2>
+<div>
 <a href="catalog.html"><img src="#" alt="логотип Техномарт"</a>
 <form action ="#" method="post"> <input type="search" placeholder="Поиск"></form> 
 <a href="#">Закладки </a>
 <a href="#">Корзина </a>
 <a href="#">Оформить заказ</a>
-</section>
+</div>
 
-<section> <h2>информация</h2>
+
+<div>
 <i>Интернет магазин<br> строительных материалов<br> и инструментов для ремонта</i>
-<address tel="+78125550555">+7(812)555-05-55</address>
+<a href="tel:+78125550555">+7(812)555-05-55</a>
 <address>г. Санкт-Петербург ул.Б.Конюшенная д.19/8</address>
 <a href="#">Войти </a>
 <a href="#">Регистрация </a>
-</section>
+</div>
 
 <nav>
     <ul>
@@ -35,7 +36,7 @@
   </nav> 
  </header>
  <main>
- <div class="breadcraps"> <a href=""><img src="https://via.placeholder.com/15x10" alt="вернуться"></a>
+ <div class="breadcrambs"> <a href=""><img src="https://via.placeholder.com/15x10" alt="вернуться"></a>
  <a href="">Каталог</a>
  <a href="">Инструмент</a>
  <a href="">Перфораторы</a>
@@ -45,51 +46,50 @@
  <div class="filtering"> <h2>сортировка:</h2> <a href="">по цене</a> <a href="">по типу</a> <a href="">по функционалу</a>
  </div>
  <div class="goods">
- <ul>
- <li><div class=product>
+ <div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
           <a href="">Перфоратор BOSH BFG 6000</a>  <div class="old_price"><s>3050022500р</s></div> <div class="new_price">25500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+ <div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+ <div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
-      </div></li>
+      </div>
  <li><div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 3000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>22500р</s></div> <div class="new_price">15500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+ <div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+ <div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 2000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="new_price">12500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+ <div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 3000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>22500р</s></div> <div class="new_price">12500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+<div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 6000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="old_price"><s>30500р</s></div> <div class="new_price">25500</div>
-      </div></li>
- <li><div class=product>
+      </div>
+<div class=product>
       <a href=""> <img src="https://via.placeholder.com/150x100"  alt="перфоратор BOSH BFG 2000"></a>
           <a href="">Перфоратор BOSH BFG 2000</a>  <div class="new price">12500</div>
-      </div></li>
- </ul>
+      </div>
+ 
  </div>
  <div class="pagination> <a href="">1</a> <a href="">2</a><a href="">3</a><a href="">следующая</a></div>
  </div>
 
  <section>
   <h2>фильтр:</h2>
-  <form url="#" method="get">
+  <form action="#" method="get">
   <fieldset>
     <legend>цена</legend>
 
@@ -122,7 +122,7 @@
   </main>
  <footer>
 <section><h2>ссылки</h2>
-  <a href="catalog.html"><img src="#" alt="логотип Техномарт"</a>
+  <a href="catalog.html"><img src="#" alt="логотип Техномарт"></a>
    <address>г. Санкт-Петербург ул.Б.Конюшенная д.19/8</address>
    <ul>
      <li><a href="">Компания</a></li>
